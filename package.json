@@ -1,0 +1,14 @@
+{
+  "name": "redark",
+  "version": "1.0.0",
+  "description": "Redark website",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./css/main.css -o ./css/main.dist.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.15"
+  }
+}
